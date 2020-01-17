@@ -1,0 +1,12 @@
+2020-01-08 12:05:21 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on ip-172-31-84-253 with PID 8930 (/home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService/target/classes started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-08 12:05:21 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-08 12:05:21 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2020-01-08 12:05:23 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2020-01-08 12:05:23 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2020-01-08 12:05:25 [main] INFO  c.s.k.CategoryServiceApplication -
+				Started CategoryServiceApplication in 4.503 seconds (JVM running for 5.06)

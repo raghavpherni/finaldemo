@@ -1,0 +1,24 @@
+2020-01-09 07:07:29 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-84-253 with PID 5167 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/ReminderService)
+2020-01-09 07:07:29 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:07:29 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:07:42 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 14.447 seconds (JVM running for 17.416)
+2020-01-09 07:07:43 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				Starting ReminderControllerTest on ip-172-31-84-253 with PID 5167 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/ReminderService)
+2020-01-09 07:07:43 [main] DEBUG c.s.k.t.c.ReminderControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:07:43 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:07:45 [main] INFO  c.s.k.t.c.ReminderControllerTest -
+				Started ReminderControllerTest in 1.896 seconds (JVM running for 19.678)
+2020-01-09 07:07:46 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				Starting ReminderRepositoryTest on ip-172-31-84-253 with PID 5167 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/ReminderService)
+2020-01-09 07:07:46 [main] DEBUG c.s.k.t.r.ReminderRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:07:46 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:07:47 [main] INFO  c.s.k.t.r.ReminderRepositoryTest -
+				Started ReminderRepositoryTest in 0.899 seconds (JVM running for 22.319)

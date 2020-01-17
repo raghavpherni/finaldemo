@@ -1,0 +1,110 @@
+version: '3'
+
+# Define services
+services:
+  auth-service:
+    container_name: UserAuthentication-Service
+    build:
+      context: UserAuthentication-Service/
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: host
+    image: auth-service:1.0
+    expose:
+         - 8089
+    ports:
+         - 8089:8089
+    depends_on:
+        - mysqldb
+        
+  user-service:
+    container_name: UserService
+    build:
+      context: UserService/
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: host
+    image: user-service:1.0
+    expose:
+         - 8080
+    ports:
+         - 8080:8080
+    depends_on:
+        - mongodb
+        
+  note-service:
+    container_name: NoteService
+    build:
+      context: NoteService/
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: host
+    image: note-service:1.0
+    expose:
+         - 8082
+    ports:
+         - 8082:8082
+    depends_on:
+        - mongodb
+        
+  category-service:
+    container_name: CategoryService
+    build:
+      context: CategoryService/
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: host
+    image: category-service:1.0
+    expose:
+         - 8083
+    ports:
+         - 8083:8083
+    depends_on:
+        - mongodb
+        
+  reminder-service:
+    container_name: ReminderService
+    build:
+      context: ReminderService/
+      dockerfile: Dockerfile
+    restart: always
+    network_mode: host
+    image: reminder-service:1.0
+    expose:
+         - 8081
+    ports:
+         - 8081:8081
+    depends_on:
+        - mongodb
+        
+  
+
+  # Database Service (Mysql)
+  mysqldb:
+    image: mysql:5.7
+    network_mode: host
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: AuthenticationServiceDB
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: root
+
+  mongodb:
+    image: mongo:latest
+    command: mongod --port 27017
+    ports:
+      - "27017:27017"
+    restart: always
+
+  angular-service-frontend:
+    image: angular-image
+    container_name: frontend-angular
+    build: ../angular-keep-level-3-assignment/
+    restart: always
+    network_mode: host
+    ports:
+    - 4200:4200
+
+      

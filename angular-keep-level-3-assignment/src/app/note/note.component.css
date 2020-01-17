@@ -1,0 +1,55 @@
+/* .notes-card{
+    width:80vw;
+    margin:10vh 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+} */
+.note-size{
+    height:30vh;
+    width:20vw;
+    margin:1em;
+}
+
+.note-card{
+    
+    min-width: 10vh;
+    min-height: 20vh;
+    margin:1em;
+    /* border-radius: .45rem; */
+
+    border:  solid whitesmoke;
+    box-shadow: 10px 10px 25px grey;
+    border-radius: 2%;
+    
+  }
+  .card-text, h3, mat-card-title, mat-card-content {
+    font-family: 'Montserrat', cursive;
+    color: aliceblue;
+}
+
+.cards{
+    background-color: rgb(170, 170, 170) !important;
+}
+.reminder{
+    color: chocolate;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    
+}
+.status{
+    color: teal;
+}
+mat-card-title{
+    text-transform: uppercase;
+}
+.category{
+  font-size: 1em;
+  text-transform: uppercase;
+  color:coral;
+}
+
+.menu-menu{
+  float: right;
+  
+}

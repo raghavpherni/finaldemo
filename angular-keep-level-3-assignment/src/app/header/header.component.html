@@ -1,0 +1,14 @@
+<mat-toolbar><div style="font-size: larger;margin-left: 2%;font-weight: bold;"> Keep Note</div>
+	<div>
+	</div>
+	<div class="keep-c-toggle-view">
+		<i *ngIf="isNoteView" class="material-icons switchToListView" (click)="routeToListView()" >view_list</i>
+		<i *ngIf="!isNoteView" class="material-icons switchToNoteView" (click)="routeToNoteView()">view_quilt</i>
+		
+		<div class="btn-group">
+				<button type="button" class="btn btn-default btn-sm" [disabled]="getStatus()" (click)="logoutUser()">
+					<span class="glyphicon glyphicon-user" ></span> Logout 
+				  </button>
+			</div>
+	</div>
+</mat-toolbar>

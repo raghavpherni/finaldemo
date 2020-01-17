@@ -1,0 +1,37 @@
+2020-01-08 10:51:44 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on ip-172-31-84-253 with PID 4830 (/home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService/target/classes started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-08 10:51:44 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-08 10:51:44 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2020-01-08 10:51:46 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2020-01-08 10:51:46 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2020-01-08 10:51:48 [main] ERROR o.s.boot.SpringApplication -
+				Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.ClassCastException: org.springframework.beans.factory.support.NullBean cannot be cast to org.springframework.plugin.core.Plugin
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:184)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:52)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:157)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:121)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:885)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.stackroute.keepnote.CategoryServiceApplication.main(CategoryServiceApplication.java:40)
+Caused by: java.lang.ClassCastException: org.springframework.beans.factory.support.NullBean cannot be cast to org.springframework.plugin.core.Plugin
+	at org.springframework.plugin.core.PluginRegistrySupport.initialize(PluginRegistrySupport.java:78)
+	at org.springframework.plugin.core.OrderAwarePluginRegistry.initialize(OrderAwarePluginRegistry.java:132)
+	at org.springframework.plugin.core.PluginRegistrySupport.getPlugins(PluginRegistrySupport.java:59)
+	at org.springframework.plugin.core.SimplePluginRegistry.getPlugins(SimplePluginRegistry.java:68)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsManager.documentationPlugins(DocumentationPluginsManager.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:148)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	... 14 common frames omitted

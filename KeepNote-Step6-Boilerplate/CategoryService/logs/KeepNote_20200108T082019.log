@@ -1,0 +1,8 @@
+2020-01-08 08:20:20 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Starting CategoryRepositoryTest on ip-172-31-84-253 with PID 29373 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-08 08:20:20 [main] DEBUG c.s.k.t.r.CategoryRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-08 08:20:20 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-08 08:20:22 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Started CategoryRepositoryTest in 2.626 seconds (JVM running for 3.685)

@@ -1,0 +1,24 @@
+2020-01-09 07:08:42 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Starting UserControllerTest on ip-172-31-84-253 with PID 6572 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 07:08:42 [main] DEBUG c.s.k.t.c.UserControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:08:42 [main] INFO  c.s.k.t.c.UserControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:08:47 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Started UserControllerTest in 5.53 seconds (JVM running for 8.317)
+2020-01-09 07:08:48 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Starting UserRepositoryTest on ip-172-31-84-253 with PID 6572 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 07:08:48 [main] DEBUG c.s.k.t.r.UserRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:08:48 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:08:52 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Started UserRepositoryTest in 3.283 seconds (JVM running for 13.188)
+2020-01-09 07:08:52 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-84-253 with PID 6572 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 07:08:52 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 07:08:52 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 07:09:00 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 7.748 seconds (JVM running for 21.624)

@@ -1,0 +1,8 @@
+2020-01-07 10:03:44 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-84-253 with PID 10783 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-07 10:03:44 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-07 10:03:44 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-07 10:03:49 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 5.304 seconds (JVM running for 6.257)

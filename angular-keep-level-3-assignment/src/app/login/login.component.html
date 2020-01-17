@@ -1,0 +1,33 @@
+<div class="login-card">
+    <mat-card class="center" style="border:  solid whitesmoke;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 2%;">
+        
+            <h4 class="form-header">User Login</h4>
+        
+        <mat-card-content >
+                <form class="form-login" action="" (submit)="loginSubmit()">
+            <mat-form-field>
+                <input matInput placeholder="Enter Username" [formControl]="username" class="username">
+                <mat-error *ngIf="username.hasError('required') && username.touched">Enter username</mat-error>
+                <mat-error *ngIf="username.hasError('minlength') && username.touched">UserName must be min 5 characters</mat-error>
+                </mat-form-field>
+          
+                <mat-form-field>
+                <input matInput type="password" placeholder="Enter Password" [formControl]="password" class="password">
+                <mat-error *ngIf="password.hasError('required') && password.touched">Enter password</mat-error>
+                <mat-error *ngIf="password.hasError('minlength') && password.touched">password must be min 5 characters</mat-error>
+                </mat-form-field>
+          
+                <div class="center-button">
+                <button mat-button class="button-css">Login</button>
+                
+                    <button mat-button class="button-css" (click) = "routeToSignUp()">Create Account</button>
+            </div>
+              <h6 class="error-message" style="color: red;">{{this.submitMessage}}</h6>
+        </form>
+
+        </mat-card-content>
+      </mat-card>
+    
+    </div>

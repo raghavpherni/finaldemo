@@ -1,0 +1,24 @@
+2020-01-10 10:46:44 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-84-253 with PID 10790 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService)
+2020-01-10 10:46:44 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:46:44 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:46:46 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Started NoteControllerTest in 2.918 seconds (JVM running for 4.137)
+2020-01-10 10:46:47 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-84-253 with PID 10790 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService)
+2020-01-10 10:46:47 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:46:47 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:46:52 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 4.344 seconds (JVM running for 9.511)
+2020-01-10 10:46:52 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Starting NoteRepositoryTest on ip-172-31-84-253 with PID 10790 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService)
+2020-01-10 10:46:52 [main] DEBUG c.s.k.t.r.NoteRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:46:52 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:46:52 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Started NoteRepositoryTest in 0.471 seconds (JVM running for 10.077)

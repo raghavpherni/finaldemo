@@ -1,0 +1,24 @@
+2020-01-10 10:36:23 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Starting CategoryControllerTest on ip-172-31-84-253 with PID 9913 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-10 10:36:23 [main] DEBUG c.s.k.t.c.CategoryControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:36:23 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:36:26 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Started CategoryControllerTest in 3.226 seconds (JVM running for 5.37)
+2020-01-10 10:36:26 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-84-253 with PID 9913 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-10 10:36:26 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:36:26 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:36:33 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 6.519 seconds (JVM running for 12.41)
+2020-01-10 10:36:33 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Starting CategoryRepositoryTest on ip-172-31-84-253 with PID 9913 (started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-10 10:36:33 [main] DEBUG c.s.k.t.r.CategoryRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-10 10:36:33 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-10 10:36:34 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Started CategoryRepositoryTest in 0.559 seconds (JVM running for 12.987)

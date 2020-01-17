@@ -1,0 +1,216 @@
+2020-01-13 12:32:58 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-84-253 with PID 6681 (/home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService/target/classes started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService)
+2020-01-13 12:32:58 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-13 12:32:58 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2020-01-13 12:33:00 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2020-01-13 12:33:00 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2020-01-13 12:33:03 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 4.611 seconds (JVM running for 5.269)
+2020-01-13 12:33:19 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=not-started, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:19 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=not-started, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:19 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:19 UTC 2020
+2020-01-13 12:33:19 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=not-started, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:22 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:22 UTC 2020
+2020-01-13 12:33:22 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:22 UTC 2020
+2020-01-13 12:33:22 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=not-started, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:22 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:22 UTC 2020
+2020-01-13 12:33:22 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:22 UTC 2020
+2020-01-13 12:33:22 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=4, noteTitle=not-started, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:27 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:27 UTC 2020
+2020-01-13 12:33:27 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:27 UTC 2020
+2020-01-13 12:33:27 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=4, noteTitle=up, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:28 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:28 UTC 2020
+2020-01-13 12:33:28 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:28 UTC 2020
+2020-01-13 12:33:28 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=up, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:31 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:31 UTC 2020
+2020-01-13 12:33:31 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:31 UTC 2020
+2020-01-13 12:33:31 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=up, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:31 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:31 UTC 2020
+2020-01-13 12:33:31 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:31 UTC 2020
+2020-01-13 12:33:31 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=4, noteTitle=up, noteContent=again desc, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:37 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:37 UTC 2020
+2020-01-13 12:33:37 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:37 UTC 2020
+2020-01-13 12:33:37 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:38 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:38 UTC 2020
+2020-01-13 12:33:38 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:38 UTC 2020
+2020-01-13 12:33:38 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:39 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:39 UTC 2020
+2020-01-13 12:33:40 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:40 UTC 2020
+2020-01-13 12:33:40 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:40 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:40 UTC 2020
+2020-01-13 12:33:40 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:40 UTC 2020
+2020-01-13 12:33:40 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=2, noteTitle=Second Note, noteContent=Added from PostMan, noteStatus=In progress, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:47 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:47 UTC 2020
+2020-01-13 12:33:47 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:47 UTC 2020
+2020-01-13 12:33:47 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=2, noteTitle=Second Note up, noteContent=Added from PostMan, noteStatus=started, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123],{}>
+2020-01-13 12:33:47 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:47 UTC 2020
+2020-01-13 12:33:47 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:47 UTC 2020
+2020-01-13 12:33:47 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=2, noteTitle=Second Note up, noteContent=Added from PostMan, noteStatus=started, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:56 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:56 UTC 2020
+2020-01-13 12:33:56 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:56 UTC 2020
+2020-01-13 12:33:56 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=2, noteTitle=Second Note up, noteContent=Added from PostMan, noteStatus=started, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:33:56 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:33:56 UTC 2020
+2020-01-13 12:33:56 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:33:56 UTC 2020
+2020-01-13 12:33:56 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=4, noteTitle=up, noteContent=again desc updated, noteStatus=not-started, createdAt=Mon Jan 13 12:03:50 UTC 2020, category=null, reminder=null, createdBy=Jhon123], Note [noteId=2, noteTitle=Second Note up, noteContent=Added from PostMan, noteStatus=started, createdAt=Mon Jan 13 05:52:22 UTC 2020, category=null, reminder=null, createdBy=Jhon123]],{}>
+2020-01-13 12:34:10 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,{}>
+2020-01-13 12:34:10 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,{}>
+2020-01-13 12:34:10 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:10 UTC 2020
+2020-01-13 12:34:10 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,{}>
+2020-01-13 12:34:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:42 UTC 2020
+2020-01-13 12:34:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:42 UTC 2020
+2020-01-13 12:34:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <201 Created,Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav],{}>
+2020-01-13 12:34:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:42 UTC 2020
+2020-01-13 12:34:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:42 UTC 2020
+2020-01-13 12:34:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:34:56 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:56 UTC 2020
+2020-01-13 12:34:56 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:56 UTC 2020
+2020-01-13 12:34:56 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <201 Created,Note [noteId=2, noteTitle=note2, noteContent=note3, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav],{}>
+2020-01-13 12:34:56 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:56 UTC 2020
+2020-01-13 12:34:56 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:56 UTC 2020
+2020-01-13 12:34:56 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note3, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:34:58 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:58 UTC 2020
+2020-01-13 12:34:58 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:58 UTC 2020
+2020-01-13 12:34:58 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note3, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:34:58 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:34:58 UTC 2020
+2020-01-13 12:34:58 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:34:58 UTC 2020
+2020-01-13 12:34:58 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=2, noteTitle=note2, noteContent=note3, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav],{}>
+2020-01-13 12:35:04 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:35:04 UTC 2020
+2020-01-13 12:35:04 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:35:04 UTC 2020
+2020-01-13 12:35:04 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav],{}>
+2020-01-13 12:35:04 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:35:04 UTC 2020
+2020-01-13 12:35:04 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:35:04 UTC 2020
+2020-01-13 12:35:04 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:35:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:35:17 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:35:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:35:17 UTC 2020
+2020-01-13 12:35:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:36:52 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:36:52 UTC 2020
+2020-01-13 12:36:52 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:36:52 UTC 2020
+2020-01-13 12:36:52 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:39:13 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:39:13 UTC 2020
+2020-01-13 12:39:13 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:39:13 UTC 2020
+2020-01-13 12:39:13 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>
+2020-01-13 12:39:28 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before : Mon Jan 13 12:39:28 UTC 2020
+2020-01-13 12:39:28 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@After : Mon Jan 13 12:39:28 UTC 2020
+2020-01-13 12:39:28 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				returning obj: <200 OK,[Note [noteId=1, noteTitle=raghav note2, noteContent=desc, noteStatus=not-started, createdAt=Mon Jan 13 12:34:42 UTC 2020, category=null, reminder=null, createdBy=Raghav], Note [noteId=2, noteTitle=note2, noteContent=note updated, noteStatus=not-started, createdAt=Mon Jan 13 12:34:56 UTC 2020, category=null, reminder=null, createdBy=Raghav]],{}>

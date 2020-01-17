@@ -1,0 +1,12 @@
+2020-01-13 05:42:26 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-84-253 with PID 17366 (/home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService/target/classes started by ubuntu in /home/ubuntu/Documents/springworkspace2/KeepNote-Step6-Boilerplate/NoteService)
+2020-01-13 05:42:26 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-13 05:42:26 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2020-01-13 05:42:28 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2020-01-13 05:42:28 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2020-01-13 05:42:30 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 4.503 seconds (JVM running for 5.114)

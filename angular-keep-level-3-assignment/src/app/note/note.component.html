@@ -1,0 +1,16 @@
+<div class="note-card">
+    <mat-card class="cards" >
+     <div class="todelete">  
+        <mat-card-title>{{note.noteTitle}}</mat-card-title>
+        <mat-card-content>{{note.noteContent}}</mat-card-content>
+    </div>   
+    <button type="button" class="btn btn-default btn-sm" (click)="deleteNote()">
+        <span class="glyphicon glyphicon-trash" ></span> Delete
+      </button>
+      <button type="button" class="btn btn-default btn-sm" (click)="openEditNoteView()">
+        <span class="glyphicon glyphicon-edit"></span> Edit
+      </button>
+        <!-- <span class="glyphicon glyphicon-edit edit" (click)="openEditNoteView()"></span> -->
+    </mat-card>
+    
+</div>

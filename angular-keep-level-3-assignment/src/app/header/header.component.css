@@ -1,0 +1,11 @@
+.mat-toolbar{
+	background-color: rgb(6, 354, 253) !important;
+}
+.keep-c-toggle-view {
+	width: 100%;
+	margin-left: 75%;
+	cursor: pointer;
+}
+.btn-group{
+	margin-left: 20%;
+}

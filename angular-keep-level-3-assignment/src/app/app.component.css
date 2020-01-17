@@ -1,0 +1,12 @@
+.menu-class{
+    font-size: larger;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    float: right;
+}
+.my-app{
+    background-color: bisque;
+    border: 1px solid ;
+    box-shadow: 10px 10px 25px grey;
+    border-radius: 2%;
+}
